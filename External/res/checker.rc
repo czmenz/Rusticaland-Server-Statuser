@@ -1,0 +1,34 @@
+#include <winuser.h>
+LANGUAGE 0x09, 0x01
+1 ICON ICONPATH
+1 RT_MANIFEST "checker.manifest"
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Rusticaland\0"
+      VALUE "FileDescription", "Rusticaland Server Checker\0"
+      VALUE "FileVersion", "1.0\0"
+      VALUE "InternalName", "RusticalandServerChecker\0"
+      VALUE "OriginalFilename", "Rusticaland Server Checker.exe\0"
+      VALUE "ProductName", "Rusticaland Server Checker\0"
+      VALUE "ProductVersion", "1.0\0"
+      VALUE "Comments", "Author: Czmenz; Team: Rusticaland; Organization: Rusticaland\0"
+      VALUE "Language", "en-US\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 0x04B0
+  END
+END
